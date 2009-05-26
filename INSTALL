@@ -1,0 +1,10 @@
+What you need to compile :
+	- OpenGL (with glut) => see http://www.mesa3d.org
+	- glui => see http://www.cs.unc.edu/~rademach/glui
+
+here are installation instructions :
+	- edit Makefile to see if it fits to your config
+	- edit src/config.h to see if it fits to your config
+	- `make`
+	- test with `test` or the various `bench-time-*`
+	- copy (or not) the executable OpenGLavity whereever you want (typically /usr/local/bin or /opt/bin)

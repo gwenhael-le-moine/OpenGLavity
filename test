@@ -1,0 +1,2 @@
+#! /bin/sh
+./OpenGLavity -u -i universes/galaxies.unv

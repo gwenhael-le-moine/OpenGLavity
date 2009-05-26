@@ -1,0 +1,52 @@
+#Changelog of OpenGLavity
+# dd/mm/yyyy
+
+10/12/2004:
+	- thrown out files related part of GLUI GUI so it don't segfault
+
+19/02/2003:
+	- *** Shame on me !!!!!!!!! ***
+	The gravitational calculs were all FALSES until today :/
+	The 'full N-body' was just wrong (see algo.trace) !
+
+18/02/2003:
+	- modified Makefile to optimize archive generation
+	- modified initialisation sequence for logic and clarity and so you
+	can switch back to window when starting fullscreen
+	- replaced macro TITRE, dispatched (is this word existing in english ?)
+	the informations in APP_NAME, MAJOR, MINOR, REVISION and LANGUAGE
+	(see config.h if you don't undersand wath I mean here)
+
+15/01/2003:
+	- replaced some macros by inlines functions, it seems to optimize even
+	more !
+
+14/12/2002:
+	- Erased two obsoletes functions in es.h : askAndLoadFile &
+	stdout_output (scream out loud to me if you want them back)
+
+13/12/2002:
+	- Big clean-up began
+	- separated struct switches in two structs between those related with
+	gravity engine or gui (globalvars.h)
+	- Oops... src/parseargs.h disappeared... didn't see the need for it to
+	be apart anymore, the parsing function goes in main.cpp, global vars
+	in globalvars.h
+
+01/12/2002:
+	- grouped all "switches" into a struct (globalvars.h)
+	- added 'q' and 'Q' to quit (glutstuff.h)
+
+18/11/2002:
+	- modified 'make archive' so it create a .tar.gz too
+	- modified 'make archive' so the .tar.bz2/.gz extract to a
+	sub-directory instead of ./
+
+23/10/2002:
+	- fixed a bug that caused SegFault on opening a non-existing file.
+
+16/09/2002:
+	- fullscreen REALLY switch
+	- moved things from gluistuff.h to glutstuff.h to achieve fullscreeen
+	switch
+	- possibility to switch controls window

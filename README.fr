@@ -1,0 +1,67 @@
+                         -= OpenGLavity =-
+
+http://cycojesus.free.fr/progs/openglavity/index.htm
+
+/*****************************************************************************/
+
+Sommaire :
+1. Copyright
+
+2. Buts et principes
+  2.1. But
+  2.2. N-corps complet
+  2.3. format du fichier d'entree
+
+3. Utilisation
+  3.1. Compilation
+  3.2. Options de lancement
+  3.3. GUI
+
+4. Epilogue
+
+/*****************************************************************************/
+
+  1. Copyright
+     Copyright (C) 2001, 2002 Gwenhael LE MOINE (cycojesus@yahoo.fr)
+     	   	                 Michel SALVADORI
+     OpenGLavity est fourni avec ABSOLUMENT AUCUNE GARANTIE; pour les
+     details voir COPYING. Ceci est un logiciel libre, et vous êtes libre de le
+     redistribuer sous certaines conditions, voir COPYING pour les details.
+
+  2. Buts et principes
+    2.1. But
+			(plus tard)
+
+    2.2. N-corps complet
+			(plus tard)
+
+    2.3. format du fichier d'entree
+		Le contenu du fichier d'entree est on ne peux plus simple ;-) :
+         /----------------------\
+         | nb of corps          |
+         | X Y Z M D VX VY VZ C |
+         \----------------------/
+		X  : coordonnee du corps en X
+		Y  : coordonnee du corps en Y
+		Z  : coordonnee du corps en Z
+		M  : masse du corps
+		D  : diamètre du corps
+		VX : celerite du corps en X
+		VY : celerite du corps en Y
+		VZ : celerite du corps en Z
+		C  : couleur du corps
+
+  3. Utilisation
+	3.1. Compilation
+		- editez le fichier config.h afin de fixer certaines options (GLUT & GLUI)
+		- make
+		- ./test pour voir si ca marche
+
+	3.2. Options de lancement
+		faites 'OpenGLavity -h' pour les voir
+
+	3.3. GUI
+		Self explaining, not ?... (if not e-mail me and I'll write more here ;) )
+
+  4. Epilogue
+		(plus tard)
